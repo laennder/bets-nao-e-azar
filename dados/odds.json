@@ -1,0 +1,463 @@
+{
+ "atualizado_em": "2026-07-19T21:20:02+00:00",
+ "liga": "Brasileirão Série A",
+ "fonte": "mediana do mercado",
+ "jogos": [
+  {
+   "casa": "Atlético Mineiro",
+   "visitante": "Bahia",
+   "casa_curto": "Atlético-MG",
+   "visitante_curto": "Bahia",
+   "inicio": "2026-07-21T22:30:00Z",
+   "odds": {
+    "casa": 2.09,
+    "empate": 3.3,
+    "visitante": 3.46
+   },
+   "implicita": {
+    "casa": 0.4785,
+    "empate": 0.303,
+    "visitante": 0.289
+   },
+   "real": {
+    "casa": 0.447,
+    "empate": 0.2831,
+    "visitante": 0.27
+   },
+   "margem": 0.0705,
+   "n_casas": 24
+  },
+  {
+   "casa": "Coritiba",
+   "visitante": "Palmeiras",
+   "casa_curto": "Coritiba",
+   "visitante_curto": "Palmeiras",
+   "inicio": "2026-07-22T22:30:00Z",
+   "odds": {
+    "casa": 3.75,
+    "empate": 3.18,
+    "visitante": 2.02
+   },
+   "implicita": {
+    "casa": 0.2667,
+    "empate": 0.3145,
+    "visitante": 0.495
+   },
+   "real": {
+    "casa": 0.2478,
+    "empate": 0.2922,
+    "visitante": 0.46
+   },
+   "margem": 0.0762,
+   "n_casas": 21
+  },
+  {
+   "casa": "São Paulo",
+   "visitante": "Athletico Paranaense",
+   "casa_curto": "São Paulo",
+   "visitante_curto": "Athletico-PR",
+   "inicio": "2026-07-23T00:30:00Z",
+   "odds": {
+    "casa": 2.0,
+    "empate": 3.18,
+    "visitante": 3.85
+   },
+   "implicita": {
+    "casa": 0.5,
+    "empate": 0.3145,
+    "visitante": 0.2597
+   },
+   "real": {
+    "casa": 0.4655,
+    "empate": 0.2927,
+    "visitante": 0.2418
+   },
+   "margem": 0.0742,
+   "n_casas": 23
+  },
+  {
+   "casa": "Chapecoense",
+   "visitante": "Flamengo",
+   "casa_curto": "Chapecoense",
+   "visitante_curto": "Flamengo",
+   "inicio": "2026-07-23T00:30:00Z",
+   "odds": {
+    "casa": 6.66,
+    "empate": 4.3,
+    "visitante": 1.44
+   },
+   "implicita": {
+    "casa": 0.1502,
+    "empate": 0.2326,
+    "visitante": 0.6944
+   },
+   "real": {
+    "casa": 0.1394,
+    "empate": 0.2159,
+    "visitante": 0.6447
+   },
+   "margem": 0.0772,
+   "n_casas": 23
+  },
+  {
+   "casa": "Internacional",
+   "visitante": "Cruzeiro",
+   "casa_curto": "Inter",
+   "visitante_curto": "Cruzeiro",
+   "inicio": "2026-07-23T00:30:00Z",
+   "odds": {
+    "casa": 2.22,
+    "empate": 3.2,
+    "visitante": 3.2
+   },
+   "implicita": {
+    "casa": 0.4505,
+    "empate": 0.3125,
+    "visitante": 0.3125
+   },
+   "real": {
+    "casa": 0.4188,
+    "empate": 0.2906,
+    "visitante": 0.2906
+   },
+   "margem": 0.0755,
+   "n_casas": 23
+  },
+  {
+   "casa": "Botafogo",
+   "visitante": "Vitória",
+   "casa_curto": "Botafogo",
+   "visitante_curto": "Vitória",
+   "inicio": "2026-07-23T22:30:00Z",
+   "odds": {
+    "casa": 1.73,
+    "empate": 3.57,
+    "visitante": 4.73
+   },
+   "implicita": {
+    "casa": 0.578,
+    "empate": 0.2801,
+    "visitante": 0.2114
+   },
+   "real": {
+    "casa": 0.5404,
+    "empate": 0.2619,
+    "visitante": 0.1977
+   },
+   "margem": 0.0696,
+   "n_casas": 16
+  },
+  {
+   "casa": "Corinthians",
+   "visitante": "Remo",
+   "casa_curto": "Corinthians",
+   "visitante_curto": "Remo",
+   "inicio": "2026-07-23T22:30:00Z",
+   "odds": {
+    "casa": 1.5,
+    "empate": 3.98,
+    "visitante": 6.45
+   },
+   "implicita": {
+    "casa": 0.6667,
+    "empate": 0.2513,
+    "visitante": 0.155
+   },
+   "real": {
+    "casa": 0.6213,
+    "empate": 0.2342,
+    "visitante": 0.1445
+   },
+   "margem": 0.073,
+   "n_casas": 23
+  },
+  {
+   "casa": "Athletico Paranaense",
+   "visitante": "Internacional",
+   "casa_curto": "Athletico-PR",
+   "visitante_curto": "Inter",
+   "inicio": "2026-07-25T21:30:00Z",
+   "odds": {
+    "casa": 1.94,
+    "empate": 3.17,
+    "visitante": 3.95
+   },
+   "implicita": {
+    "casa": 0.5155,
+    "empate": 0.3155,
+    "visitante": 0.2532
+   },
+   "real": {
+    "casa": 0.4755,
+    "empate": 0.291,
+    "visitante": 0.2335
+   },
+   "margem": 0.0841,
+   "n_casas": 18
+  },
+  {
+   "casa": "Santos",
+   "visitante": "Chapecoense",
+   "casa_curto": "Santos",
+   "visitante_curto": "Chapecoense",
+   "inicio": "2026-07-25T21:30:00Z",
+   "odds": {
+    "casa": 1.44,
+    "empate": 4.18,
+    "visitante": 6.4
+   },
+   "implicita": {
+    "casa": 0.6944,
+    "empate": 0.2392,
+    "visitante": 0.1562
+   },
+   "real": {
+    "casa": 0.6371,
+    "empate": 0.2195,
+    "visitante": 0.1434
+   },
+   "margem": 0.0899,
+   "n_casas": 18
+  },
+  {
+   "casa": "Vasco",
+   "visitante": "Mirassol",
+   "casa_curto": "Vasco",
+   "visitante_curto": "Mirassol",
+   "inicio": "2026-07-25T23:30:00Z",
+   "odds": {
+    "casa": 2.11,
+    "empate": 3.25,
+    "visitante": 3.35
+   },
+   "implicita": {
+    "casa": 0.4739,
+    "empate": 0.3077,
+    "visitante": 0.2985
+   },
+   "real": {
+    "casa": 0.4388,
+    "empate": 0.2849,
+    "visitante": 0.2764
+   },
+   "margem": 0.0801,
+   "n_casas": 21
+  },
+  {
+   "casa": "Bahia",
+   "visitante": "Corinthians",
+   "casa_curto": "Bahia",
+   "visitante_curto": "Corinthians",
+   "inicio": "2026-07-26T19:00:00Z",
+   "odds": {
+    "casa": 2.08,
+    "empate": 3.33,
+    "visitante": 3.37
+   },
+   "implicita": {
+    "casa": 0.4808,
+    "empate": 0.3003,
+    "visitante": 0.2967
+   },
+   "real": {
+    "casa": 0.4461,
+    "empate": 0.2786,
+    "visitante": 0.2753
+   },
+   "margem": 0.0778,
+   "n_casas": 16
+  },
+  {
+   "casa": "Cruzeiro",
+   "visitante": "Botafogo",
+   "casa_curto": "Cruzeiro",
+   "visitante_curto": "Botafogo",
+   "inicio": "2026-07-26T19:00:00Z",
+   "odds": {
+    "casa": 1.81,
+    "empate": 3.46,
+    "visitante": 4.1
+   },
+   "implicita": {
+    "casa": 0.5525,
+    "empate": 0.289,
+    "visitante": 0.2439
+   },
+   "real": {
+    "casa": 0.509,
+    "empate": 0.2663,
+    "visitante": 0.2247
+   },
+   "margem": 0.0854,
+   "n_casas": 16
+  },
+  {
+   "casa": "Red Bull Bragantino",
+   "visitante": "Coritiba",
+   "casa_curto": "Bragantino",
+   "visitante_curto": "Coritiba",
+   "inicio": "2026-07-26T21:30:00Z",
+   "odds": {
+    "casa": 1.65,
+    "empate": 3.6,
+    "visitante": 4.95
+   },
+   "implicita": {
+    "casa": 0.6061,
+    "empate": 0.2778,
+    "visitante": 0.202
+   },
+   "real": {
+    "casa": 0.5581,
+    "empate": 0.2558,
+    "visitante": 0.186
+   },
+   "margem": 0.0859,
+   "n_casas": 16
+  },
+  {
+   "casa": "Flamengo",
+   "visitante": "São Paulo",
+   "casa_curto": "Flamengo",
+   "visitante_curto": "São Paulo",
+   "inicio": "2026-07-26T21:30:00Z",
+   "odds": {
+    "casa": 1.5,
+    "empate": 3.95,
+    "visitante": 6.4
+   },
+   "implicita": {
+    "casa": 0.6667,
+    "empate": 0.2532,
+    "visitante": 0.1562
+   },
+   "real": {
+    "casa": 0.6195,
+    "empate": 0.2353,
+    "visitante": 0.1452
+   },
+   "margem": 0.0761,
+   "n_casas": 16
+  },
+  {
+   "casa": "Grêmio",
+   "visitante": "Fluminense",
+   "casa_curto": "Grêmio",
+   "visitante_curto": "Fluminense",
+   "inicio": "2026-07-26T21:30:00Z",
+   "odds": {
+    "casa": 2.55,
+    "empate": 3.25,
+    "visitante": 2.64
+   },
+   "implicita": {
+    "casa": 0.3922,
+    "empate": 0.3077,
+    "visitante": 0.3788
+   },
+   "real": {
+    "casa": 0.3636,
+    "empate": 0.2853,
+    "visitante": 0.3512
+   },
+   "margem": 0.0786,
+   "n_casas": 17
+  },
+  {
+   "casa": "Palmeiras",
+   "visitante": "Atlético Mineiro",
+   "casa_curto": "Palmeiras",
+   "visitante_curto": "Atlético-MG",
+   "inicio": "2026-07-26T22:30:00Z",
+   "odds": {
+    "casa": 1.54,
+    "empate": 3.7,
+    "visitante": 5.9
+   },
+   "implicita": {
+    "casa": 0.6494,
+    "empate": 0.2703,
+    "visitante": 0.1695
+   },
+   "real": {
+    "casa": 0.5962,
+    "empate": 0.2482,
+    "visitante": 0.1556
+   },
+   "margem": 0.0891,
+   "n_casas": 16
+  },
+  {
+   "casa": "Remo",
+   "visitante": "Vitória",
+   "casa_curto": "Remo",
+   "visitante_curto": "Vitória",
+   "inicio": "2026-07-26T22:30:00Z",
+   "odds": {
+    "casa": 2.1,
+    "empate": 3.25,
+    "visitante": 3.25
+   },
+   "implicita": {
+    "casa": 0.4762,
+    "empate": 0.3077,
+    "visitante": 0.3077
+   },
+   "real": {
+    "casa": 0.4362,
+    "empate": 0.2819,
+    "visitante": 0.2819
+   },
+   "margem": 0.0916,
+   "n_casas": 16
+  },
+  {
+   "casa": "Botafogo",
+   "visitante": "Grêmio",
+   "casa_curto": "Botafogo",
+   "visitante_curto": "Grêmio",
+   "inicio": "2026-07-29T00:00:00Z",
+   "odds": {
+    "casa": 1.71,
+    "empate": 3.7,
+    "visitante": 4.25
+   },
+   "implicita": {
+    "casa": 0.5848,
+    "empate": 0.2703,
+    "visitante": 0.2353
+   },
+   "real": {
+    "casa": 0.5363,
+    "empate": 0.2479,
+    "visitante": 0.2158
+   },
+   "margem": 0.0904,
+   "n_casas": 11
+  },
+  {
+   "casa": "Chapecoense",
+   "visitante": "Vasco",
+   "casa_curto": "Chapecoense",
+   "visitante_curto": "Vasco",
+   "inicio": "2026-07-29T00:00:00Z",
+   "odds": {
+    "casa": 2.65,
+    "empate": 3.4,
+    "visitante": 2.41
+   },
+   "implicita": {
+    "casa": 0.3774,
+    "empate": 0.2941,
+    "visitante": 0.4149
+   },
+   "real": {
+    "casa": 0.3473,
+    "empate": 0.2707,
+    "visitante": 0.3819
+   },
+   "margem": 0.0864,
+   "n_casas": 11
+  }
+ ]
+}
