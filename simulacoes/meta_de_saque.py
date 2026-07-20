@@ -143,7 +143,7 @@ def main() -> None:
     js = jogos(args.ao_vivo)
 
     print("=" * 64)
-    print("EU SAIO QUANDO GANHAR")
+    print("EU PARO QUANDO ESTIVER GANHANDO")
     print("=" * 64)
     print(f"{formatar_numero(args.pessoas)} pessoas, cada uma com "
           f"{formatar_reais(BANCA_INICIAL)}, apostando {formatar_reais(APOSTA)} "
@@ -170,7 +170,7 @@ def main() -> None:
               f"{formatar_reais(BANCA_INICIAL)}.")
     else:
         print(f"{formatar_pct(r['quebraram'] / n, 0)} perderam tudo. "
-              "Quanto maior a meta, mais fácil de quebrar antes.")
+              "Quanto maior a meta, mais fácil quebrar antes.")
         print("Meta maior quer dizer mais apostas antes de poder sacar, e")
         print("cada aposta a mais é outra fatia para a casa.")
     print()
