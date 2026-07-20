@@ -15,6 +15,7 @@ MODULOS = [
     ("longo_prazo", ["--ao-vivo", "--semente"]),
     ("monte_carlo", ["--ao-vivo", "--semente"]),
     ("martingale", ["--semente"]),
+    ("meta_de_saque", ["--ao-vivo", "--semente"]),
     ("quase_ganho", ["--semente"]),
     ("caminho_do_dinheiro", []),
     ("calculadora", ["--ao-vivo"]),
@@ -45,6 +46,8 @@ def main() -> None:
                 argv += ["--giros", "100000"]
             elif nome == "martingale":
                 argv += ["--rodadas", "40"]
+            elif nome == "meta_de_saque":
+                argv += ["--pessoas", "2000", "--rapido"]
 
         sys.argv = argv
         print()

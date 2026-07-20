@@ -13,6 +13,18 @@ APOSTAS_POR_PESSOA = 500
 BANCA_MARTINGALE = 10_000.0
 APOSTA_BASE_MARTINGALE = 100.0
 
+# Meta de saque: o apostador combina consigo mesmo um lucro e vai embora
+# ao alcançá-lo. A barra da página vai de 200 a 2.000 e abre no piso, que
+# é onde o paradoxo fica mais afiado: quase sete em dez saem ganhando e a
+# média ainda é negativa.
+PESSOAS_META = 10_000
+META_PADRAO = 200.0
+META_MINIMA = 200.0
+META_MAXIMA = 2_000.0
+# Ninguém chega perto disso: a pessoa resolve, para um lado ou para o
+# outro, em algumas dezenas de apostas. Existe para o laço ser finito.
+TETO_DE_APOSTAS = 5_000
+
 # Quanto das apostas volta como prêmio. As duas estimativas oficiais
 # discordam, e a página mostra as duas em vez de escolher a mais dramática.
 RETORNO_BC = 0.85         # Banco Central, Estudo Especial 119/2024

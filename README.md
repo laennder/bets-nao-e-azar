@@ -29,6 +29,7 @@ Ou rode uma simulação isolada:
 ```bash
 python3 -m simulacoes.martingale
 python3 -m simulacoes.monte_carlo --pessoas 50000 --semente 1
+python3 -m simulacoes.meta_de_saque --meta 500
 ```
 
 ## As cotações são reais
@@ -47,6 +48,7 @@ O mesmo vale para a taxa de juros usada no comparativo: [`dados/tesouro.json`](d
 | [`longo_prazo.py`](simulacoes/longo_prazo.py) | O que acontece com o saldo conforme o número de apostas cresce? |
 | [`monte_carlo.py`](simulacoes/monte_carlo.py) | De 10.000 apostadores, quantos terminam no lucro? |
 | [`martingale.py`](simulacoes/martingale.py) | A estratégia de dobrar a aposta funciona? |
+| [`meta_de_saque.py`](simulacoes/meta_de_saque.py) | E se o apostador combinar de sacar quando ganhar um tanto? |
 | [`quase_ganho.py`](simulacoes/quase_ganho.py) | Por que "faltou pouco" acontece tanto? |
 | [`caminho_do_dinheiro.py`](simulacoes/caminho_do_dinheiro.py) | Para onde vão R$ 100 apostados? |
 | [`calculadora.py`](simulacoes/calculadora.py) | Quanto custa apostar todo mês por dez anos? |
@@ -91,6 +93,29 @@ Formalmente, pela lei forte dos grandes números, a fortuna acumulada `R_n ≈ n
 ### E a ruína do apostador fecha a porta
 
 Com banca finita contra um adversário de banca praticamente infinita, e valor esperado negativo, a probabilidade de ruína tende a 1. O problema clássico é de Huygens, 1657. Não é uma descoberta recente nem uma opinião sobre apostas.
+
+### Uma regra de saída não salva, e a meta não é um dial
+
+É a objeção mais razoável contra as outras simulações: nelas ninguém tem
+regra de saída, então quebrar vira questão de tempo. Com regra, o retrato
+muda de forma, não de sinal.
+
+Com meta pequena, a **maioria** realmente bate a meta e sai ganhando, e o
+resultado médio continua negativo. Não há contradição, há assimetria de
+magnitude: quem saca leva a meta, que é pouco; quem quebra perde a banca
+inteira, que é muito. Mais gente ganhando pouco não compensa menos gente
+perdendo tudo.
+
+Subir a meta também não resolve, porque troca uma coisa pela outra. Meta
+maior exige mais apostas antes de poder sacar, e cada aposta a mais é
+outra fatia para a casa: a chance de quebrar no caminho cresce mais rápido
+que o prêmio no fim dele. Rodando a mesma simulação em cada meta, a
+proporção de quem saca cai de cerca de 68% para 14% e a média afunda,
+sem cruzar o zero em ponto nenhum.
+
+O desenho da distribuição diz o mesmo: são duas populações, não uma. Um
+bloco em -R$ 1.000, um vazio, e uma faixa que começa na meta. Quase
+ninguém termina morno.
 
 ### Duas regras que mudam o retrato
 
